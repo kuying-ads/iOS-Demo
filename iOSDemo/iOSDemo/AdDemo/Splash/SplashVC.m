@@ -34,6 +34,9 @@
     //超时时间
     self.splashAd.fetchAdTimeout = FirstAppOpen_Timeout;
     
+    // Available since 6.5.91: deliver load success/fail callbacks on the main thread (default NO / background)
+    self.splashAd.callbackOnMainThread = YES;
+    
     [self.splashAd load];
 }
 

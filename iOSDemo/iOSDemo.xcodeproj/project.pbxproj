@@ -29,6 +29,10 @@
 		8EB59D3D2F3DD2540038DD3B /* NativeExpressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB59D382F3DD2540038DD3B /* NativeExpressVC.m */; };
 		8EB59D3E2F3DD2540038DD3B /* NativeSelfRenderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB59D3A2F3DD2540038DD3B /* NativeSelfRenderVC.m */; };
 		8EB59D3F2F3DD2540038DD3B /* NativeSelfRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB59D3C2F3DD2540038DD3B /* NativeSelfRenderView.m */; };
+		A1C0AD010000000000000003 /* IconAd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C0AD010000000000000002 /* IconAd.m */; };
+		A1C0AD010000000000000006 /* IconAdConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C0AD010000000000000005 /* IconAdConfig.m */; };
+		A1C0AD01000000000000000B /* IconView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C0AD01000000000000000A /* IconView.m */; };
+		A1C0AD01000000000000000E /* IconAdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C0AD01000000000000000D /* IconAdVC.m */; };
 		CA2715B12D8C02540079E0A0 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2715B02D8C02540079E0A0 /* BaseNavigationController.m */; };
 		CA2715B72D912A6E0079E0A0 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2715B62D912A6E0079E0A0 /* BaseTabBarController.m */; };
 		CA6807CD2DFFFD61005879D4 /* PPVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6807CC2DFFFD61005879D4 /* PPVC.m */; };
@@ -39,10 +43,6 @@
 		CADFAC762E1E2AF600DD6481 /* BaseNormalBarNoFootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFAC6F2E1E2AF600DD6481 /* BaseNormalBarNoFootVC.m */; };
 		CADFAC772E1E2AF600DD6481 /* BaseNormalBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFAC712E1E2AF600DD6481 /* BaseNormalBarVC.m */; };
 		CAF8B0832D364FF600F3498E /* file in Resources */ = {isa = PBXBuildFile; fileRef = CAF8B0822D364FF600F3498E /* file */; };
-		A1C0AD010000000000000003 /* IconAd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C0AD010000000000000002 /* IconAd.m */; };
-		A1C0AD010000000000000006 /* IconAdConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C0AD010000000000000005 /* IconAdConfig.m */; };
-		A1C0AD01000000000000000B /* IconView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C0AD01000000000000000A /* IconView.m */; };
-		A1C0AD01000000000000000E /* IconAdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C0AD01000000000000000D /* IconAdVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +91,18 @@
 		8EB59D3A2F3DD2540038DD3B /* NativeSelfRenderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeSelfRenderVC.m; sourceTree = "<group>"; };
 		8EB59D3B2F3DD2540038DD3B /* NativeSelfRenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeSelfRenderView.h; sourceTree = "<group>"; };
 		8EB59D3C2F3DD2540038DD3B /* NativeSelfRenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeSelfRenderView.m; sourceTree = "<group>"; };
+		A1C0AD010000000000000001 /* IconAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAd.h; sourceTree = "<group>"; };
+		A1C0AD010000000000000002 /* IconAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconAd.m; sourceTree = "<group>"; };
+		A1C0AD010000000000000004 /* IconAdConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAdConfig.h; sourceTree = "<group>"; };
+		A1C0AD010000000000000005 /* IconAdConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconAdConfig.m; sourceTree = "<group>"; };
+		A1C0AD010000000000000007 /* IconAdLoadCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAdLoadCallback.h; sourceTree = "<group>"; };
+		A1C0AD010000000000000008 /* IconAdListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAdListener.h; sourceTree = "<group>"; };
+		A1C0AD010000000000000009 /* IconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconView.h; sourceTree = "<group>"; };
+		A1C0AD01000000000000000A /* IconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconView.m; sourceTree = "<group>"; };
+		A1C0AD01000000000000000C /* IconAdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAdVC.h; sourceTree = "<group>"; };
+		A1C0AD01000000000000000D /* IconAdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconAdVC.m; sourceTree = "<group>"; };
+		A1C0AD010000000000000011 /* API.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = API.md; sourceTree = "<group>"; };
+		A1C0AD010000000000000012 /* Icon广告说明.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Icon广告说明.md"; sourceTree = "<group>"; };
 		AB6F000DDE072BE9205E3BA6 /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2715AF2D8C02540079E0A0 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		CA2715B02D8C02540079E0A0 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
@@ -112,18 +124,6 @@
 		CADFAC722E1E2AF600DD6481 /* BaseOnlyBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseOnlyBarVC.h; sourceTree = "<group>"; };
 		CADFAC732E1E2AF600DD6481 /* BaseOnlyBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseOnlyBarVC.m; sourceTree = "<group>"; };
 		CAF8B0822D364FF600F3498E /* file */ = {isa = PBXFileReference; lastKnownFileType = text; path = file; sourceTree = "<group>"; };
-		A1C0AD010000000000000001 /* IconAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAd.h; sourceTree = "<group>"; };
-		A1C0AD010000000000000002 /* IconAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconAd.m; sourceTree = "<group>"; };
-		A1C0AD010000000000000004 /* IconAdConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAdConfig.h; sourceTree = "<group>"; };
-		A1C0AD010000000000000005 /* IconAdConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconAdConfig.m; sourceTree = "<group>"; };
-		A1C0AD010000000000000007 /* IconAdLoadCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAdLoadCallback.h; sourceTree = "<group>"; };
-		A1C0AD010000000000000008 /* IconAdListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAdListener.h; sourceTree = "<group>"; };
-		A1C0AD010000000000000009 /* IconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconView.h; sourceTree = "<group>"; };
-		A1C0AD01000000000000000A /* IconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconView.m; sourceTree = "<group>"; };
-		A1C0AD01000000000000000C /* IconAdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconAdVC.h; sourceTree = "<group>"; };
-		A1C0AD01000000000000000D /* IconAdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconAdVC.m; sourceTree = "<group>"; };
-		A1C0AD010000000000000011 /* API.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = API.md; sourceTree = "<group>"; };
-		A1C0AD010000000000000012 /* Icon广告说明.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Icon广告说明.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,7 +402,6 @@
 				8972AB6B2D2AD7A300CB5A22 /* Frameworks */,
 				8972AB6C2D2AD7A300CB5A22 /* Resources */,
 				DEDE208059B034D3403D365F /* [CP] Embed Pods Frameworks */,
-				BF9346ED4F42F012AB00D817 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -482,23 +481,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF9346ED4F42F012AB00D817 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DEDE208059B034D3403D365F /* [CP] Embed Pods Frameworks */ = {

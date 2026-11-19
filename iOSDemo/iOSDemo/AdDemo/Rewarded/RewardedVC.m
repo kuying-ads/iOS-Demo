@@ -33,6 +33,9 @@
     self.rewardedAd.loadDelegate = self;
     self.rewardedAd.showDelegate = self;
     
+    // Available since 6.5.91: deliver load success/fail callbacks on the main thread (default NO / background)
+    self.rewardedAd.callbackOnMainThread = YES;
+    
     //设置额外参数字典对象，可选接入
 //    self.interstitialAd.extra = xxx
     
